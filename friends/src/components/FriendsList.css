@@ -7,8 +7,8 @@
 
 .button{
     align-self: center; 
-    margin-bottom: 15%; 
-    background-color: aliceblue; 
+    margin-bottom: 5%; 
+    background-color: #E5E8B6;
     width: 20%; 
     padding: 2%;
     border-radius: 10px; 
@@ -17,11 +17,14 @@
 
 .names {
     display: flex; 
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap; 
 }
 
 .friend {
-    width: 50%; 
-
+    margin-top: 20px; 
+    width: 45%; 
+    border: 1px solid black; 
+    border-radius: 20px; 
+    background: #7D869C; 
 }

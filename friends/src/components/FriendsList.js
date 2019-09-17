@@ -26,13 +26,16 @@ const FriendsList = () => {
   return (
     <div className="main-div">
       <a className="button">
+        <NavLink to={`/login`}>Home</NavLink>
+      </a>
+      <a className="button">
         <NavLink to={`/addfriends`}>Add Friends</NavLink>
       </a>
 
       <div className="names">
         {friends.map(friend => (
           <div className="friend">
-            <h1>{friend.name}</h1> <h2>{friend.age}</h2> <h3>{friend.email}</h3>
+            <h1>{friend.name}</h1> <h2>Age: {friend.age}</h2> <h3>E-mail: {friend.email}</h3>
           </div>
         ))}
       </div>

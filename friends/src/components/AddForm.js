@@ -6,6 +6,7 @@ import {
   NavLink
 } from "react-router-dom";
 import { axiosWithAuth } from "../utils/axiosWithAuth";
+import "./AddForm.css";
 
 class AddForm extends React.Component {
   state = {
@@ -38,6 +39,14 @@ class AddForm extends React.Component {
         //   this.props.history.push('/protected');
       })
       .catch(err => console.log(err));
+      this.setState({
+        friends: {
+          id: Date.now(),
+          name: "",
+          age: "",
+          email: ""
+        }
+      });
   };
 
   render() {
@@ -64,9 +73,9 @@ class AddForm extends React.Component {
             onChange={this.handleChange}
           />
           <button>Add Friend</button>
-          <nav>
+          <button>
             <NavLink to={`/protected`}>See Friends</NavLink>
-          </nav>
+          </button>
         </form>
       </div>
     );
