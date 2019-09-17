@@ -1,0 +1,27 @@
+
+
+.main-div {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.button{
+    align-self: center; 
+    margin-bottom: 15%; 
+    background-color: aliceblue; 
+    width: 20%; 
+    padding: 2%;
+    border-radius: 10px; 
+    text-decoration: none; 
+}
+
+.names {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.friend {
+    width: 50%; 
+
+}
