@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  width: 60%; 
+  margin: 0 auto; 
+  background-color: #586994; 
+  height: 30vh; 
+  color: #B4C4AE; 
+  font-family: 'Manjari', sans-serif;
+}
+
+
+form { 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  font-size: 1.3rem; 
+}
+
+input {
+  margin: 10px;
+  border-radius: 5px; 
+  border: none; 
+  height: 20px; 
+}
+
+button {
+  border: none; 
+  border-radius: 10px; 
+  width: 100px;
+  height: 30px; 
+  margin-left: 10px; 
+  text-decoration: none;  
+  background-color: #E5E8B6; 
+}
+
+h1{ 
+  padding: 15px; 
+  width: 20%; 
+  margin: 0 0 30px 0; 
+  font-size: 2rem; 
+}

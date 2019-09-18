@@ -1,0 +1,48 @@
+
+
+.main-div {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.button{
+    align-self: center; 
+    margin-left: 5%; 
+    background-color: #E5E8B6;
+    width: 100px; 
+    padding: 2%;
+    border-radius: 10px; 
+    text-decoration: none; 
+    height: 20px; 
+}
+
+.names {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-top: 140px; 
+}
+
+.friend {
+    margin-top: 10px; 
+    width: 45%; 
+    border: 1px solid black; 
+    border-radius: 20px; 
+    background: #7D869C; 
+}
+
+.buttons-div {
+    display: flex; 
+    flex-direction: row; 
+
+}
+
+.friend-header{
+    margin: 0; 
+}
+
+a {
+    text-decoration: none; 
+    color: black; 
+    
+}
