@@ -3,8 +3,9 @@
   width: 60%; 
   margin: 0 auto; 
   background-color: #586994; 
-  height: 40vh; 
-  color: #B4C4AE
+  height: 30vh; 
+  color: #B4C4AE; 
+  font-family: 'Manjari', sans-serif;
 }
 
 
@@ -36,4 +37,5 @@ h1{
   padding: 15px; 
   width: 20%; 
   margin: 0 0 30px 0; 
+  font-size: 2rem; 
 }
